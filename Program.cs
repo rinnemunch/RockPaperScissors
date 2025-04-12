@@ -5,6 +5,9 @@ string[] options = { "Rock", "Paper", "Scissors" };
 Random rand = new Random();
 string computerChoice = options[rand.Next(options.Length)];
 
+Console.WriteLine($" You chose {userChoice}");
+Console.WriteLine($" The computer chose {computerChoice}");
+
 if (userChoice == computerChoice)
 {
     Console.Write("It's a tie!");
@@ -21,3 +24,4 @@ else
 {
     Console.Write("You lose!");
 }
+
