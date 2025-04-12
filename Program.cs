@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Choose Rock, Paper, or Scissors: "); 
+string userChoice = Console.ReadLine() ?? "";   
